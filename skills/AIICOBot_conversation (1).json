@@ -1,0 +1,241 @@
+{
+  "text": "Oops I'm encountering a spot of trouble. Please try again later...",
+  "type": "text",
+  "channelExtensions": {
+    "debugInfo": {
+      "variables": {
+        "greeting": null,
+        "system.entityToResolve": {
+          "outOfOrderMatches": [],
+          "rangeStartVar": "",
+          "nextRangeStart": 0,
+          "transitionedAfterMatch": false,
+          "validationErrors": {},
+          "allMatches": [],
+          "skippedItems": [],
+          "disambiguationValues": {},
+          "updatedEntities": [],
+          "needShowMoreButton": false,
+          "enumValues": []
+        },
+        "system.state.displayListOfProducts.promptCount": 0,
+        "paymentRef": null,
+        "filteredInsurance": [
+          {
+            "isThirdParty": false,
+            "prefix": "01",
+            "reqUW": false,
+            "renewable": true,
+            "wet": null,
+            "imageUrl": null,
+            "name": "Private Motor Comprehensive",
+            "wef": "2017-12-01T00:00:00",
+            "description": "Private Motor Comprehensive",
+            "id": "f1326cce-47e7-e711-a2be-005056a02281",
+            "isActive": true,
+            "productCategory": "Auto"
+          },
+          {
+            "isThirdParty": true,
+            "prefix": "05",
+            "reqUW": false,
+            "renewable": true,
+            "wet": null,
+            "imageUrl": null,
+            "name": "Private Motor 3rd Party",
+            "wef": "2017-12-01T00:00:00",
+            "description": "Private Motor 3rd Party",
+            "id": "fef672bd-faf1-e711-a2c0-005056a02281",
+            "isActive": true,
+            "productCategory": "Auto"
+          }
+        ],
+        "system.state.displaySubClasCover.promptCount": 0,
+        "system.state.mainMenu.promptCount": 0,
+        "continue": null,
+        "profile.firstName": "bytenaija@gmail.com",
+        "user.botsUnexpectedAction": "",
+        "system.invalidUserInput": false,
+        "productId": "f1326cce-47e7-e711-a2be-005056a02281",
+        "DescriptionOfClaims": null,
+        "claimsNotification": null,
+        "system.config.system.helpState": "",
+        "system.config.system.intentConfidenceThreshold": 0,
+        "customerName": null,
+        "system.state.BuyInsurance.promptCount": 0,
+        "phoneNumber": null,
+        "system.config.system.intentConfidenceWinMargin": 0,
+        "phone": null,
+        "name": null,
+        "system.config.system.errorMaxStatesExceededPrompt": "Your session appears to be in an infinite loop.",
+        "cardsRangeStart": null,
+        "system.state.displaySubClasCover.entityResolutionStatus": {
+          "outOfOrderMatches": [],
+          "rangeStartVar": "",
+          "nextRangeStart": 0,
+          "transitionedAfterMatch": false,
+          "validationErrors": {},
+          "allMatches": [],
+          "skippedItems": [],
+          "disambiguationValues": {},
+          "updatedEntities": [],
+          "needShowMoreButton": false,
+          "enumValues": []
+        },
+        "system.processedUserMessage": false,
+        "profile.updatedOn": "2018-12-14T04:47:24.099Z",
+        "system.state.mainMenu.entityResolutionStatus": {
+          "outOfOrderMatches": [],
+          "rangeStartVar": "",
+          "nextRangeStart": 0,
+          "transitionedAfterMatch": false,
+          "validationErrors": {},
+          "allMatches": [],
+          "skippedItems": [],
+          "disambiguationValues": {},
+          "updatedEntities": [],
+          "needShowMoreButton": false,
+          "enumValues": []
+        },
+        "subClassId": null,
+        "mainmenuVar": "1",
+        "buyInsuranceVar": null,
+        "iResult": {
+          "timeStamp": 1544762844907,
+          "intentMatches": {
+            "summary": [
+              {
+                "score": 1,
+                "intent": "Welcome"
+              }
+            ],
+            "detail": {
+              "final_norm": [
+                {
+                  "sentence": [],
+                  "score": 1,
+                  "intent": "Welcome"
+                }
+              ]
+            }
+          },
+          "trainingDataUnit": null,
+          "botName": "AIICOBot",
+          "appId": "8BC5EA97-66A7-43B1-8F55-1020399AE5F3",
+          "query": "hi",
+          "entityMatches": {}
+        },
+        "user.botsUserError": false,
+        "InsuranceType": null,
+        "policyStatus": null,
+        "system.state.displayListOfProducts.entityResolutionStatus": {
+          "outOfOrderMatches": [],
+          "rangeStartVar": "",
+          "nextRangeStart": 0,
+          "transitionedAfterMatch": false,
+          "validationErrors": {},
+          "allMatches": [],
+          "skippedItems": [],
+          "disambiguationValues": {},
+          "updatedEntities": [],
+          "needShowMoreButton": false,
+          "enumValues": []
+        },
+        "system.config.system.errorUnexpectedErrorPrompt": "Oops I'm encountering a spot of trouble. Please try again later...",
+        "system.config.system.startState": "",
+        "system.config.system.welcomeState": "",
+        "cardPayment": null,
+        "email": null,
+        "amount": null,
+        "profile.lastName": "Unspecified",
+        "PolicyNumber": null,
+        "transactionRef": null,
+        "transactionDate": null,
+        "profile.locale": "en_US",
+        "subClassCover": [
+          {
+            "name": "Auto Basic",
+            "description": "Theft : Covered\r\nFire damage : Covered\r\nOwn Accidental damage : Covered\r\n3rd party property damage : Up to N1m\r\n3rd party bodily injury : Covered\r\nMedical refund : 100,000.00\r\nLoss of personal effects : 20,000.00\r\nAuthorized repair limit : 2.5% of value\r\nRefund for hired vehicle after an accident/theft : Not Covered\r\nExcess Buy Back : Covered\r\nTowing limit : Up to N20,000.00\r\nTracking Installation : Free for Sum Insured above N4m\r\nLoss of Car Accessories  when the vehicle is stolen : Yes\r\nRiot, Strike & Civil Commotion : Free\r\nFlood Extension : 0.5% of value\r\nNo Claims Discount(NCD)-After two consecutive years : 2.5% of premium\r\n",
+            "id": "06ee8b29-47e7-e711-a2be-005056a02281"
+          },
+          {
+            "name": "Auto Classic",
+            "description": "Theft : Covered\r\nFire damage : Covered\r\nOwn Accidental damage : Covered\r\n3rd party damage : Up to N2.5m\r\n3rd party bodily injury : Covered\r\nMedical refund : 150,000.00\r\nLoss of personal effects : 20,000.00\r\nAuthorized repair limit : 2.5% of value\r\nRefund for hired vehicle after an accident/theft : Up to N7,500.00\r\nExcess Buy Back : Covered\r\nTowing limit : Up to N25,000.00\r\nTracking Installation : Free for Sum Insured above N4m\r\nLoss of Car Accessories  when the vehicle is stolen : Covered\r\nRiot, Strike & Civil Commotion : Free\r\nFlood Extension : 0.5% of value\r\nNo Claims Discount(NCD)-After two consecutive years : 2.5% of premium\r\n",
+            "id": "8b8cee87-d9ea-e711-a2be-005056a02281"
+          },
+          {
+            "name": "Auto Deluxe",
+            "description": "Theft : Covered\r\nFire damage : Covered\r\nOwn Accidental damage : Covered\r\n3rd party property damage : Up to N3m\r\n3rd party bodily injury : Covered\r\nMedical refund : 250,000.00\r\nLoss of personal effects : 25,000.00\r\nAuthorized repair limit : 2.5% of value\r\nRefund for hired vehicle after an accident/theft : Up to N10,000.00\r\nExcess Buy Back : Covered\r\nTowing limit : Up to N25,000.00\r\nTracking Installation : Free for Sum Insured above N4m\r\nLoss of Car Accessories  when the vehicle is stolen : Covered\r\nRiot, Strike & Civil Commotion : Free\r\nFlood Extension : Free\r\nNo Claims Discount(NCD)-After two consecutive years : 5% of premium\r\n",
+            "id": "c388804b-d9ea-e711-a2be-005056a02281"
+          },
+          {
+            "name": "Auto Regular",
+            "description": "Theft : Covered\r\nFire damage : Covered\r\nOwn Accidental damage : Covered\r\n3rd party property damage : up to N1m\r\n3rd party bodily injury : Covered\r\nMedical refund : 10,000.00\r\nLoss of personal effects : 10,000.00\r\nAuthorized repair limit : 2.5% of value\r\nRefund for hired vehicle after an accident/theft : Not Covered\r\nExcess Buy Back : 0.5% of value\r\nTowing limit : Up to N10,000.00\r\nTracking Installation : Free for Sum Insured above N4m\r\nLoss of Car Accessories  when the vehicle is stolen : Yes\r\nRiot, Strike & Civil Commotion : Free\r\nFlood Extension : 0.5% of value\r\nNo Claims Discount(NCD)-After two consecutive years : 2.5% of premium\r\n",
+            "id": "cd20dba6-d9ea-e711-a2be-005056a02281"
+          },
+          {
+            "name": "Auto Royale",
+            "description": "Theft : Covered\r\nFire damage : Covered\r\nOwn Accidental damage : Covered\r\n3rd party property damage : Up to N5m\r\n3rd party bodily injury : Covered\r\nMedical refund : 500,000.00\r\nLoss of personal effects : 50,000.00\r\nAuthorized repair limit : 2.5% of value\r\nRefund for hired vehicle after an accident/theft : Up to N15,000.00\r\nExcess Buy Back : Covered\r\nTowing limit : Up to N50,000.00\r\nTracking Installation : Free for Sum Insured above N4m\r\nLoss of Car Accessories  when the vehicle is stolen : Covered\r\nRiot, Strike & Civil Commotion : Free\r\nFlood Extension : Free\r\nNo Claims Discount(NCD)-After two consecutive years : 5% of premium\r\n",
+            "id": "02baaf3b-47e7-e711-a2be-005056a02281"
+          }
+        ],
+        "profile.timezoneOffset": -3600000,
+        "system.config.system.errorExpiredSessionPrompt": "Your session has expired.  Please start again.",
+        "system.state.BuyInsurance.entityResolutionStatus": {
+          "outOfOrderMatches": [],
+          "rangeStartVar": "",
+          "nextRangeStart": 0,
+          "transitionedAfterMatch": false,
+          "validationErrors": {},
+          "allMatches": [],
+          "skippedItems": [],
+          "disambiguationValues": {},
+          "updatedEntities": [],
+          "needShowMoreButton": false,
+          "enumValues": []
+        },
+        "system.postbackActions": {
+          "private motor comprehensive": {
+            "postback": {
+              "variables": {
+                "productId": "f1326cce-47e7-e711-a2be-005056a02281"
+              },
+              "system.botId": "8BC5EA97-66A7-43B1-8F55-1020399AE5F3",
+              "action": "",
+              "system.state": "displayListOfProducts"
+            },
+            "label": "Private Motor Comprehensive",
+            "type": "postback"
+          },
+          "private motor 3rd party": {
+            "postback": {
+              "variables": {
+                "productId": "fef672bd-faf1-e711-a2c0-005056a02281"
+              },
+              "system.botId": "8BC5EA97-66A7-43B1-8F55-1020399AE5F3",
+              "action": "",
+              "system.state": "displayListOfProducts"
+            },
+            "label": "Private Motor 3rd Party",
+            "type": "postback"
+          }
+        }
+      },
+      "errorState": "displaySubClasCover",
+      "errorMessage": "javaException:Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')\n at [Source: {\"responseItems\":[{\"type\":\"cards\",\"cardLayout\":\"vertical\",\"actions\":[{\"label\":\"More Car Insurance Produts\",\"type\":\"postback\",\"rendered\":\"<#if cardsRangeStart?number+4 < subClassCover.value?size>true<#else>false</#if>\",\"payload\":{\"action\":\"more\",\"variables\":{\"cardsRangeStart\":\"${cardsRangeStart?number+3}\"}}}],\"cards\":[<#list subClassCover.value as subClassCover>{\"title\":\"${subClassCover.name}\",\"description\":\"${subClassCover.description}\",\"rangeStart\":\"${cardsRangeStart}\",\"rangeSize\":\"3\",\"actions\":[{\"label\":\"Order ${subClassCover.name}\",\"type\":\"postback\",\"payload\":{\"action\":\"order\",\"variables\":{\"subClassId\":\"${subClassCover.id}\"}}}]}<#sep>,</#list>]}]}; line: 1, column: 321]\n at [Source: {\"responseItems\":[{\"type\":\"cards\",\"cardLayout\":\"vertical\",\"actions\":[{\"label\":\"More Car Insurance Produts\",\"type\":\"postback\",\"rendered\":\"<#if cardsRangeStart?number+4 < subClassCover.value?size>true<#else>false</#if>\",\"payload\":{\"action\":\"more\",\"variables\":{\"cardsRangeStart\":\"${cardsRangeStart?number+3}\"}}}],\"cards\":[<#list subClassCover.value as subClassCover>{\"title\":\"${subClassCover.name}\",\"description\":\"${subClassCover.description}\",\"rangeStart\":\"${cardsRangeStart}\",\"rangeSize\":\"3\",\"actions\":[{\"label\":\"Order ${subClassCover.name}\",\"type\":\"postback\",\"payload\":{\"action\":\"order\",\"variables\":{\"subClassId\":\"${subClassCover.id}\"}}}]}<#sep>,</#list>]}]}; line: 1, column: 320] (through reference chain: oracle.cloud.bots.component.commonresponse.metadata.ResponseMetadata[\"responseItems\"]->java.util.ArrayList[0]->oracle.cloud.bots.component.commonresponse.metadata.ResponseItem[\"cards\"])",
+      "currentDialogState": "System.DefaultErrorHandler",
+      "executedStates": [
+        {
+          "stateName": "displaySubClasCover",
+          "botName": "AIICOBot",
+          "botId": "8BC5EA97-66A7-43B1-8F55-1020399AE5F3"
+        },
+        {
+          "stateName": "System.DefaultErrorHandler",
+          "botName": "AIICOBot",
+          "botId": "8BC5EA97-66A7-43B1-8F55-1020399AE5F3"
+        }
+      ]
+    }
+  }
+}

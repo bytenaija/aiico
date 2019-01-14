@@ -1,0 +1,340 @@
+{
+    "actionList": [
+        {
+            "elementTrigger": "submitClaims",
+            "enabled": true,
+            "eventTrigger": "valueChanged",
+            "parameters": [
+                {
+                    "name": "policyNumber",
+                    "value": "{policyNumber}"
+                },
+                {
+                    "name": "claimDetails",
+                    "value": "{claimDetails}"
+                }
+            ],
+            "trigger": "paneValid",
+            "type": "exitToBot"
+        }
+    ],
+    "chatbox": {
+        "active": true,
+        "apiId": "aiico_insurance_claims_request",
+        "build": 6,
+        "builder": {
+            "editCount": 42
+        },
+        "id": 4,
+        "tagList": [
+        ],
+        "trashed": false
+    },
+    "displayList": [
+        {
+            "allowDismiss": false,
+            "elementList": [
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "src": "/chatbox2/upload?k=public%2FO661%2Fschema%2F1MJs%2Fx1Wk%2FDQLkDL95EYmxCpszAimNjyZOy_xK33VfGucmMXrm17ZPNTwGZ4OewQBlhA6EqvQUPsDLAeA4f3XcDA%3D%3D%2F991a60ab-aiico-insurance.jpg",
+                        "type": "image"
+                    },
+                    "id": "image_1",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left",
+                        "width": "90%"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "generatedHtml": "<p>Insurance Claim Notification</p>\n",
+                        "text": "Insurance Claim Notification",
+                        "type": "markdown"
+                    },
+                    "id": "label_1",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "18px",
+                        "fontStyle": "normal",
+                        "fontWeight": "bold",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": true,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "everyoneMasked": false,
+                        "isTransient": false,
+                        "label": "Enter your Policy Number",
+                        "labelInline": false,
+                        "maxLength": 256,
+                        "placeholder": "",
+                        "required": false,
+                        "type": "singleLineInput"
+                    },
+                    "id": "policyNumber",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundImage": "",
+                        "borderColor": "#ccc",
+                        "borderRadius": "4px",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": false,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "errorMessage": "An error has occurred",
+                        "label": "Details of Claim",
+                        "maxLength": 1000,
+                        "placeholder": "",
+                        "required": false,
+                        "rows": 5,
+                        "type": "multiLineInput"
+                    },
+                    "id": "claimDetails",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundImage": "",
+                        "borderColor": "#ccc",
+                        "borderRadius": "4px",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "buttonClass": "InteractiveButton",
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": false,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "label": "Submit Claims Notification",
+                        "required": false,
+                        "type": "button"
+                    },
+                    "id": "submitClaims",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#93b547",
+                        "borderColor": "#333",
+                        "borderRadius": "3px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#FFFFFF",
+                        "elementClass": "",
+                        "fontSize": "14px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center",
+                        "width": "100%"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                }
+            ],
+            "id": "PANE_2",
+            "innerStyles": {
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "backgroundImage": "",
+                "borderColor": "#333",
+                "borderRadius": "0px",
+                "borderStyle": "solid",
+                "borderWidth": "0px",
+                "color": "#333333",
+                "fontSize": "13px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "textAlign": "left"
+            },
+            "validation": {
+                "asYouGo": true,
+                "errorMessage": "Please see errors above before continuing.",
+                "snippet": "",
+                "usingSnippet": false
+            }
+        }
+    ],
+    "externalDataList": [
+    ],
+    "general": {
+        "author": "Unknown",
+        "created": "Fri Dec 07 2018",
+        "icon": "/chatbox2/upload?k=public%2FO661%2Fschema%2FMbVY%2FYA2M%2FxXfa8GfPyOgkL_wTEWKK6lZhKHstTbYjbZcmYGId6paXILeAvAw918rApKE6W1RM7y4jnuIU_8EOYQ%3D%3D%2F991a60ab-aiico-insurance.jpg",
+        "internalDescription": "Collect lead information and schedule demos",
+        "inviteMessageList": [
+            "Provide more information and get a demo today: {link}"
+        ],
+        "name": "AIICO Insurance Claims Request",
+        "previewIcon": "/chatbox2/upload?k=public%2FO661%2Fschema%2F04ZN%2Fm9hZ%2F_Q27t4oGmaGssruHI160SLfW21uSyQXGkoxv3vUhHvYFeUOwe7QkXi1x5ATk7zYHuE3Ap7TErjoQgQ%3D%3D%2F991a60ab-aiico-insurance.jpg",
+        "previewText": "Claims Notification",
+        "windowTitle": "Claims Notification"
+    },
+    "snippetList": [
+    ],
+    "version": 7
+}

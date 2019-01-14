@@ -1,0 +1,506 @@
+{
+    "actionList": [
+        {
+            "elementTrigger": "pay",
+            "enabled": true,
+            "eventTrigger": "valueChanged",
+            "parameters": [
+                {
+                    "name": "cardNumber",
+                    "value": "{cardNumber}"
+                },
+                {
+                    "name": "expiry",
+                    "value": "{expiry}"
+                },
+                {
+                    "name": "cvv",
+                    "value": "{cvv}"
+                }
+            ],
+            "trigger": "paneValid",
+            "type": "exitToBot"
+        },
+        {
+            "elementTrigger": "",
+            "enabled": true,
+            "eventTrigger": "appSent",
+            "id": "amountToPay",
+            "trigger": "change",
+            "type": "setElementValue",
+            "value": "{Amount}"
+        }
+    ],
+    "chatbox": {
+        "active": true,
+        "apiId": "aiico_insurance_payment_form",
+        "build": 5,
+        "builder": {
+            "editCount": 13
+        },
+        "id": 3,
+        "tagList": [
+        ],
+        "trashed": false
+    },
+    "displayList": [
+        {
+            "allowDismiss": false,
+            "elementList": [
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "src": "/chatbox2/upload?k=public%2FO661%2Fschema%2Firar%2FIFFQ%2FeZtRvBGSQZBlgFSabHCb9IXklT33Z-1ORAsqJTBOuX-1WJCFC6a1dma6iEmD6SG2UqAqUloP6JdgVA%3D%3D%2F991a60ab-aiico-insurance.jpg",
+                        "type": "image"
+                    },
+                    "id": "logo",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundImage": "",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left",
+                        "width": "100%"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "generatedHtml": "<p><strong>Pay With Your Debit Card</strong></p>\n",
+                        "text": "**Pay With Your Debit Card**",
+                        "type": "markdown"
+                    },
+                    "id": "payment_info",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "backgroundImage": "",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "18px",
+                        "fontStyle": "normal",
+                        "fontWeight": "bold",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "generatedHtml": "<p>Amount to Pay</p>\n",
+                        "text": "Amount to Pay",
+                        "type": "markdown"
+                    },
+                    "id": "labelAmount",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "backgroundImage": "",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "bold",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "generatedHtml": "<p>{Amount}</p>\n",
+                        "text": "{Amount}",
+                        "type": "markdown"
+                    },
+                    "id": "amountToPay",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "backgroundImage": "",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": true,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "everyoneMasked": false,
+                        "isTransient": false,
+                        "label": "Card Number",
+                        "labelInline": false,
+                        "maxLength": 256,
+                        "placeholder": "",
+                        "required": false,
+                        "type": "singleLineInput"
+                    },
+                    "id": "cardNumber",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundImage": "",
+                        "borderColor": "#ccc",
+                        "borderRadius": "4px",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": true,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "everyoneMasked": false,
+                        "isTransient": false,
+                        "label": "Expiry",
+                        "labelInline": false,
+                        "maxLength": 256,
+                        "placeholder": "04/21",
+                        "required": false,
+                        "type": "singleLineInput"
+                    },
+                    "id": "expiry",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundImage": "",
+                        "borderColor": "#ccc",
+                        "borderRadius": "4px",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "48%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 3,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": true,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": true,
+                            "validateMinLength": true,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "everyoneMasked": false,
+                        "isTransient": true,
+                        "label": "CVV",
+                        "labelInline": false,
+                        "maxLength": 256,
+                        "placeholder": "",
+                        "required": false,
+                        "type": "singleLineInput"
+                    },
+                    "id": "cvv",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "backgroundImage": "",
+                        "borderColor": "#ccc",
+                        "borderRadius": "4px",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "50%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "buttonClass": "InteractiveButton",
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": false,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "label": "Make Payment",
+                        "required": false,
+                        "type": "button"
+                    },
+                    "id": "pay",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "rgba(223, 161, 10, 1)",
+                        "backgroundImage": "",
+                        "borderColor": "#333",
+                        "borderRadius": "3px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#FFFFFF",
+                        "elementClass": "",
+                        "fontSize": "14px",
+                        "fontStyle": "normal",
+                        "fontWeight": "bold",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "10px",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                }
+            ],
+            "id": "CardInfo",
+            "innerStyles": {
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+                "backgroundImage": "",
+                "borderColor": "#333",
+                "borderRadius": "0px",
+                "borderStyle": "solid",
+                "borderWidth": "0px",
+                "color": "#333333",
+                "fontSize": "13px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "textAlign": "left"
+            },
+            "validation": {
+                "asYouGo": true,
+                "errorMessage": "Please see errors above before continuing.",
+                "snippet": "",
+                "usingSnippet": false
+            }
+        }
+    ],
+    "externalDataList": [
+        {
+            "allowWrite": false,
+            "id": "Amount",
+            "path": "Amount",
+            "prefetch": true,
+            "source": "param"
+        }
+    ],
+    "general": {
+        "author": "Unknown",
+        "created": "Wed Nov 28 2018",
+        "icon": "/chatbox2/upload?k=public%2FO661%2Fschema%2FJ4D4%2Fakx8%2FfwxWz1HMRlzuD22YidwOm3sV5j_kKl4IoziBoLNt3k3eb7zcKH9WgZODsJgjxBlm0mbiy0H1MCHxMg%3D%3D%2F991a60ab-aiico-insurance.jpg",
+        "internalDescription": "",
+        "inviteMessageList": [
+            "Proceed to Payment {link}"
+        ],
+        "name": "AIICO Insurance Payment Form",
+        "previewIcon": "/chatbox2/upload?k=public%2FO661%2Fschema%2FmBdL%2FpOFz%2FCn0l5yt-k8gaWOMXt1BJaytpoNhauIDbVIu0bsQeUhzmJi4-CXk69SkT52uwDzbv-k-3rkEKsdoWaA%3D%3D%2F991a60ab-aiico-insurance.jpg",
+        "previewText": "Payment",
+        "windowTitle": "AIICO Payment Form"
+    },
+    "snippetList": [
+    ],
+    "version": 7
+}
